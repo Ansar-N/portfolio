@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ansar N</title>
+
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Skills</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Ansar N</h1>
+      <h3>And I'm a <span>Python Developer</span></h3>
+
+      <p>
+        I'm passionate Python Developer with practical experience in Django-based web application development and solid
+        knowledge of HTML and CSS.
+        I build backend-driven web applications while delivering clean and responsive user interfaces.
+        I am eager to contribute to real-world projects and continuously strengthen my skills with modern web
+        technologies.
+      </p>
+
+      <div class="social-media">
+        <a href="mailto:nansarvlm007@gmail.com"><i class='bx bx-envelope'></i></a>
+        <a href="https://www.linkedin.com/in/ansar-n" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/Ansar-N   " target="_blank"><i class='bx bxl-github'></i></a>
+      </div>
+      <br>
+      <a href="#" class="btn">Download Resume</a>
+    </div>
+
+    <div class="home-image">
+      <img src="./ansar2.png" alt="Profile Image">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="./ansar2.png" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Python & Django Developer</h3>
+
+      <p>
+        I am a BCA graduate (2025) with a solid foundation in programming, backend development, and data handling. I
+        have hands-on experience through academic projects and self-learning, where I worked on Python-based
+        applications, web development, and database integration.
+
+        I previously gained experience in teamwork, communication, and responsibility through academic and practical
+        exposure, which has helped me develop a professional work ethic. I am a quick learner, adaptable, and highly
+        motivated to start my career in the IT industry and contribute positively to organizational goals.
+        <br><br>
+        My skills include Python, Django ORM, SQL, HTML, CSS, and GitHub.
+        I am based in Coimbatore and actively looking for entry-level opportunities
+        where I can contribute and grow as a software developer.
+      </p>
+
+      <a href="#portfolio" class="btn">View Projects</a>
+    </div>
+  </section>
+
+  <!-- SERVICES / SKILLS -->
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="services-container">
+      <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Python Development</h3>
+        <p>
+          Strong understanding of Python programming, problem-solving,
+          and backend logic implementation.
+        </p>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bx-desktop'></i>
+        <h3>Django Web Development</h3>
+        <p>
+          Experience building web applications using Django, Django ORM,
+          authentication, and CRUD operations.
+        </p>
+      </div>
+
+      <div class="services-box">
+        <i class='bx bx-data'></i>
+        <h3>Database & Tools</h3>
+        <p>
+          Hands-on experience with SQL, SQLite, Git, GitHub, and VS Code
+          for efficient development workflows.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">My <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="./ansar3.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Developer Portal</h4>
+          <p>
+            A Django-based web application with authentication, CRUD operations,
+            and database integration using SQLite.
+          </p>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="./ansar4.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>To-Do List App</h4>
+          <p>
+            A simple task management application allowing users to add,
+            delete, and track daily tasks.
+          </p>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="./ansar5.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Personal Portfolio</h4>
+          <p>
+            A responsive personal portfolio website built using HTML and CSS
+            to showcase skills and projects.
+          </p>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form>
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Subject">
+      </div>
+
+      <textarea cols="30" rows="10" placeholder="Please contact me via email or LinkedIn"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2026 by Ansar N | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
